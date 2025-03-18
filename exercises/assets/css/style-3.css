@@ -280,6 +280,7 @@ section > *:last-child { margin-bottom: 0 !important }
         padding-right: 20%;
         padding-bottom: 3%;
         padding-left: 20%
+        
     }
 }
                         
@@ -300,6 +301,31 @@ section > * { max-width: 1600px }
 
 /* When content width < viewport width, equalise spacing at left and right */
 section > * { max-width: 1600px; margin-left: auto; margin-right: auto }
+
+.section-1{
+    background-color: var(--trend-300);
+}
+
+.section-2{
+    background-color: var(--sky-200);
+}
+
+
+.section-3{
+    background-color: var(--lime-300300);
+}
+
+.section-4{
+    background-color: var(--trend-700);
+}
+
+.section-4 h2,
+.section-4 p {
+    color: #fff;
+}
+.section-5 {
+    background-color: var(--purple-300);
+}
 
 /* ============= TYPOGRAPHY ============ */
 body {
