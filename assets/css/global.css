@@ -255,11 +255,17 @@ header, section, footer { margin-left: auto; margin-right: auto; overflow: hidde
 section > *:last-child { margin-bottom: 0 !important }
 
 
-img {margin-bottom: 24px;
-    border-radius: 50px;
-    box-shadow: 20px 10px 20px #d9770690;
-/*  ====================== HEADER ======================== */
+/*  ====================== COMMENT ======================== */
 
+
+
+header {
+    text-align: center; /* Centers the text */
+    color: darkblue; /* Sets the font color to dark blue */
+    font-size: 2rem; /* Adjusts font size (optional) */
+    font-family: Arial, sans-serif; /* Sets the font family (optional) */
+    margin: 20px 0; /* Adds some spacing around the header (optional) */
+}
 /* Padding around content: laptops / desktops  */
 @media (min-width: 768px) {
     header { 
@@ -309,26 +315,26 @@ section > * { max-width: 1600px }
 /* When content width < viewport width, equalise spacing at left and right */
 section > * { max-width: 1600px; margin-left: auto; margin-right: auto }
 
-/* ============= WEB BROWSER RESETS ============ */
-
-IMG {width: 100% height auto;}
-
 /* ============= TYPOGRAPHY ============ */
 body {background-color: lightgreen;}
 
+/* ============= WEB BROWSER RESETS ============ */
+img {width: 100%; height:auto}
 
 
 h1 {
-    font-size: var(--fs-xxxl);
-    line-height: 1.2;
-    text-align: center;
-    font-weight: normal;
-    letter-spacing: -3px;
+    text-align: center; /* Centers the text */
+    color: darkblue; /* Sets the font color to dark blue */
+    font-size: 2rem; /* Adjusts font size (optional) */
+    font-family: Arial, sans-serif; /* Sets the font family (optional) */
+    margin: 20px 0; /* Adds some spacing around the header (optional) */
 }
+    
 
 h2 {
-    font-size: var(--fs-xl);
+    font-size: var(--fs-xl);    
     line-height: 1.2;
+    text-align: center;
     margin-top: 42px;
     margin-bottom: 16px;
     font-weight: normal;
@@ -352,9 +358,10 @@ p {
 
 a { color: darkgreen;}
 
->img {
-    margin-top: 100px;
-    margin-bottom: 100px;
+
+img {
+    margin-bottom: 24px;
     border-radius: 50px;
     box-shadow: 20px 10px 20px #d9770690;
 }
+
