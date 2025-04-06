@@ -302,17 +302,17 @@ section > * { max-width: 1600px }
 /* When content width < viewport width, equalise spacing at left and right */
 section > * { max-width: 1600px; margin-left: auto; margin-right: auto }
 
-.section-1
-    background-color: var(--trend-300);
+.section-1{
+    background-color:var(--trend-300);
 }
 
-.section-2
-    background-color: var(--sky-200);
+.section-2{
+    background:vafr(--sky-200);
 }
 
 
 .section-3{
-    background-color: var(--lime-300300);
+    background-color:var(--lime-300);
 }
 
 .section-4{
@@ -324,7 +324,7 @@ section > * { max-width: 1600px; margin-left: auto; margin-right: auto }
     color: #fff;
 }
 .section-5 {
-    background-color: var(--purple-300);
+    background-color: var (--purple-300)
 }
 
 /* ============= TYPOGRAPHY ============ */

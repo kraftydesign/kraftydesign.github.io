@@ -286,15 +286,15 @@ h1 {
     line-height: 1.1;    
     margin-bottom: 30px;
     text-align: center;
-    letter-spacing: -1px
-    font-family: |"Oswald", sans-serif;
+    letter-spacing: -1px;
+    font-family:"Oswald", sans-serif;
 }
 
-header p { 
+header {
     font-size: var(--fs-md);
     color: var(--green-900) ;
     text-align: center;
-    font-weight:bold
+    font-weight:bold;
     font-family:500 "Lato", sans-serif;
 }
 
@@ -306,6 +306,7 @@ h2 {
     margin-top: 42px;
     margin-bottom: 14px;
     font-family: "Oswald", sans-serif;
+
 }
 
 section h2:nth-child(1) { margin-top: 0 }
@@ -322,15 +323,22 @@ p {
 .highlight-text{
     background-color: var(--green-700);
     color: white;
-    padding: 3px 2px 6px 12px;
+    padding: 3px 12px 6px 12px;
     width: fit-content;
 }
-
-img {margin-bottom: 24px;
+/* Style for images with the 'styled-image' class */
+.styled-image {
+    margin-bottom: 24px;
     border-radius: 25px;
     box-shadow: 8px 10px 8px #0E7490;
 }
-/* ======== HYPERLINKS ======== */
+
+/* Style for a specific image using the 'unique-image' ID */
+#unique-image {
+    margin-bottom: 24px;
+    border-radius: 25px;
+    box-shadow: 8px 10px 8px #0E7490;
+}
 /* ======== HYPERLINKS ======== */
 a:link, a:visited {
     color: var(--green-800); 
@@ -345,4 +353,18 @@ a:hover, a:focus, a:active {
     text-decoration-thickness: 2px;
     text-decoration-color: var(--rose-600);
     text-underline-offset: 6px;
+}
+/* Style for National Aquatic Centre image */
+.aquatic-style {
+    margin-bottom: 24px;
+    border-radius: 25px;
+    box-shadow: 8px 10px 8px #0E7490;
+}
+
+/* Style for Book of Kells image */
+.kells-style {
+    margin-bottom: 16px;
+    border-radius: 10px;
+    box-shadow: 5px 7px 5px #555555;
+    border: 2px solid #4CAF50; /* Adding a border as an example */
 }
