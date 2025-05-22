@@ -1,0 +1,8 @@
+
+
+header .col-text h2, .col-1 > h3 { line-height: 1.8 }
+.highlight {
+    background-color: rgb(244, 244, 235); /* Highlight color */
+    color: rgb(244, 141, 244); /* Text color */
+    font-weight: bold;
+}

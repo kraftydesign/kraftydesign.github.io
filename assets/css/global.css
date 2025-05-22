@@ -285,7 +285,7 @@ header {
         padding-left: 5%
     }
 }
-
+header.theme-light h1 span.highlight { color: var(--purple-300) }
 /*  ====================== SECTIONS ======================== */
 
 /* Padding around content: laptops / desktops */
@@ -365,3 +365,10 @@ img {
     box-shadow: 20px 10px 20px #d9770690;
 }
 
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+img {
+    animation: fadeIn 2s ease-in-out;
+}
