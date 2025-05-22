@@ -9,6 +9,11 @@
 
 .section-selector-2 { font-family: 'Playfair Display', serif }
 .section-selector-2 .cols-shadows .col-3 { box-shadow: rgba(207,216,220,0.9) 14px 14px 0 0 }
+.col-3 {
+    flex: 1; /* Ensures equal width distribution */
+    max-width: 32%; /* Adjust as needed */
+}
+
 
 .section-selector-3.theme-dark { background-color: var(--trend-800) }
 .section-selector-3 .col-1 h2 { color: var(--sky-300) }
@@ -57,4 +62,7 @@
 
 .section-selector-6.theme-light .cols-background .col-3:nth-child(3) {
    background-color: var(--red-300);
-}
+
+ 
+
+
